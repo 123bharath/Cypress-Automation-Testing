@@ -1,0 +1,17 @@
+{
+  "name": "cypress-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cypress run"
+},
+  "author": "Bharath",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^14.5.4",
+    "cypress-iframe": "^1.0.1"
+  }
+}

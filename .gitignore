@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Unused tests
+cypress/integration/examples/DropdownTest.js
+cypress/integration/examples/IframeTest.js
+cypress/integration/examples/Test1.js
+cypress/integration/examples/Test2.js
+cypress/integration/examples/Test3.js
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
