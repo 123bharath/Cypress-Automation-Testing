@@ -1,5 +1,7 @@
 const { defineConfig } = require("cypress");
 const browserify = require("@cypress/browserify-preprocessor");
+require('dotenv').config();
+
 const {
   addCucumberPreprocessorPlugin,
 } = require("@badeball/cypress-cucumber-preprocessor");
@@ -21,6 +23,7 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
+  projectId: process.env.CYPRESS_PROJECT_ID,
 
   e2e: {
     specPattern: "cypress/integration/examples/BDD/**/*.feature",

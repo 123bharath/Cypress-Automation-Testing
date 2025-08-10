@@ -1,6 +1,9 @@
 # Node dependencies
 node_modules/
 
+# dotenv files
+.env
+
 # Cypress output
 cypress/screenshots/
 cypress/videos/
