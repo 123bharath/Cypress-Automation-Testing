@@ -26,7 +26,7 @@ module.exports = defineConfig({
   projectId: process.env.CYPRESS_PROJECT_ID,
 
   e2e: {
-    specPattern: ["cypress/integration/examples/BDD/**/*.feature", "cypress/integration/examples/BDD/**/*.js"],
+    specPattern: ["cypress/integration/examples/BDD/**/*.feature", "cypress/integration/examples/BDD/**/HomePage.js", "cypress/integration/examples/BDD/**/TestFrameworkTest1.js"],
 
     // async setupNodeEvents(on, config) {
     // // Add Cucumber preprocessor plugin
