@@ -91,7 +91,7 @@ class HomePage {
             }
         });
         // cy.get(".checkbox").find(".checkbox2").check();
-        cy.get('label[for="checkbox2"]').should('be.visible).click();
+        cy.get('label[for="checkbox2"]').should('be.visible').click();
 
         cy.get(".btn-success").contains("Purchase").click();
         cy.get(".alert-success").should("be.visible");
